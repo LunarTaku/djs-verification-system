@@ -1,4 +1,4 @@
-![Image](https://cdn.discordapp.com/attachments/958005633788030997/1008866313600512101/BanCMD-LoggingSystem.jpg)
+![Image](https://cdn.discordapp.com/attachments/1007859633400053863/1009078850241691648/vs.jpg)
 
 # djs-verifecation-system
 This is a multi guild verifecation system for new users that join the server. You can use this to prevent raiders, bad people and many more! 
