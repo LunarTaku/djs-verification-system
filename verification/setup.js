@@ -3,11 +3,11 @@ const { SlashCommandBuilder, CommandInteraction, PermissionFlagsBits, ChannelTyp
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('setup')
-        .setDescription('Setup the welcome channel bot!')
+        .setDescription('Setup the verification channel bot!')
         .setDefaultMemberPermissions(PermissionFlagsBits.Administrator)
         .addChannelOption((option) => 
             option.setName("channel")
-            .setDescription("Channel to send the message to.")
+            .setDescription("Channel to send the verification message to.")
             .addChannelTypes(ChannelType.GuildText)
             ),
 
@@ -17,7 +17,7 @@ module.exports = {
          */
         async execute(interaction) {
             interaction.reply({
-                content: 'Successfully setup the welcome channel bot!'
+                content: 'Successfully setup the verification channel!'
             })
 
         }
