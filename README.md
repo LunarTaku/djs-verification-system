@@ -22,6 +22,11 @@ This is a multi guild verification system for new users that join the server. Yo
 # MongoDB Connection:
 > be sure to add this to your ready.js file.
 ```
+    // Add this to the top of the file
+    const { connect } = require('mongoose')
+    const chalk = require("chalk")
+    
+    // Add this to your ready.js file
     await connect(MONGO_URI)
       .then(() => {
         console.log(chalk.yellow(`✅ >>> Successfully connected to MongoDB!`));
