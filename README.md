@@ -10,8 +10,12 @@ This is a multi guild verification system for new users that join the server. Yo
 
 ## Dependencies:
 > mongoose => `npm i mongoose`
+
 > chalk => `npm i chalk@4.1.2`
+
 > dotenv => `npm i dotenv`
+
+> randomized-string => `npm i randomized-string`
 
 # Instructions:
 > 1. Place the commands into your commands folder.
