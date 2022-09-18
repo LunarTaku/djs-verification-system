@@ -14,7 +14,6 @@ This is a multi guild verification system for new users that join the server. Yo
 > chalk => `npm i chalk@4.1.2`
 
 > dotenv => `npm i dotenv`
-> randomized-string > `npm i randomized-string`
 
 > randomized-string => `npm i randomized-string`
 
