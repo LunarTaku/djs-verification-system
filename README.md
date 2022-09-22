@@ -3,6 +3,8 @@
 # djs-verification-system
 This is a multi guild verification system for new users that join the server. You can use this to prevent raiders, bad people and many more! 
 
+![GitHub Repo stars](https://img.shields.io/github/stars/LunarTaku/djs-verification-system?style=for-the-badge) ![GitHub followers](https://img.shields.io/github/followers/LunarTaku?style=for-the-badge)
+
 # MAJOR UPDATE!
 - Fixed interaction errors.
 - Added Modals.
