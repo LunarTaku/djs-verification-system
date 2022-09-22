@@ -59,14 +59,13 @@ module.exports = {
           });
 
           if (!verifyRoleId) {
-            interaction.reply({
+            return interaction.reply({
               content:
                 "You have not set a verification role yet! Use `/setrole` to set one!",
             });
-            return;
           }
 
-          var randomToken = randomString
+          const randomToken = randomString
             .generate({ length: 5, charset: "hex" })
             .toUpperCase();
 
@@ -75,7 +74,7 @@ module.exports = {
               (role) => role.id === verifyRoleId.roleId
             )
           ) {
-            interaction.reply({
+            return interaction.reply({
               embeds: [
                 new EmbedBuilder()
                   .setDescription(
@@ -85,7 +84,6 @@ module.exports = {
               ],
               ephemeral: true,
             });
-            return;
           }
 
           const modal = new ModalBuilder()
