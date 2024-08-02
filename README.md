@@ -1,4 +1,4 @@
-![Image](https://cdn.discordapp.com/attachments/958005633788030997/1009120998106345554/Verification_System.png)
+![Image](https://cdn.discordapp.com/attachments/958005633788030997/1009120998106345554/Verification_System.png?ex=66ada36a&is=66ac51ea&hm=7aec3c4284fff05c7ae21ae861f5f0e2260f29ad4cb0b0f3a165cd6b002dc6fd&)
 
 # djs-verification-system
 This is a multi guild verification system for new users that join the server. You can use this to prevent raiders, bad people and many more! 
